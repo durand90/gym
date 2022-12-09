@@ -25,7 +25,15 @@ const SearchExercises = () => {
         placeholder="Search Exercises"
         type="text"
         />
-        <Button className="search-btn">
+        <Button className="search-btn"
+        sx={{
+          bgcolorr: '#FF2625',
+          color: '#fff',
+          textTransform: 'none',
+          width: { lg: '175px', xs: '80px'}, 
+          fontSize: { lg: '20px', xs: '14px'}
+        }}
+        >
           Search
         </Button>
       </Box>
