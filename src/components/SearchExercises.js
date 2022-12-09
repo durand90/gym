@@ -25,6 +25,9 @@ const SearchExercises = () => {
         placeholder="Search Exercises"
         type="text"
         />
+        <Button className="search-btn">
+          Search
+        </Button>
       </Box>
     </Stack>
   )
