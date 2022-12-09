@@ -16,7 +16,8 @@ const SearchExercises = () => {
         sx={{
           input: { fontWeight: '700', border: 'none',
          borderRadius: 'rpx' },
-         width: { lg: '1170px', xs: '350px'}
+         width: { lg: '1170px', xs: '350px'},
+         backgroundColor: '#fff', borderRadius: '40px'
          }}
         height="76px"
         value=""
