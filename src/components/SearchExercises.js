@@ -15,8 +15,8 @@ const SearchExercises = () => {
         <TextField 
         sx={{
           input: { fontWeight: '700', border: 'none',
-         borderRadius: 'rpx' },
-         width: { lg: '1170px', xs: '350px'},
+         borderRadius: '4px' },
+         width: { lg: '800px', xs: '350px'},
          backgroundColor: '#fff', borderRadius: '40px'
          }}
         height="76px"
@@ -27,12 +27,19 @@ const SearchExercises = () => {
         />
         <Button className="search-btn"
         sx={{
-          bgcolorr: '#FF2625',
+          bgcolor: '#FF2625',
           color: '#fff',
           textTransform: 'none',
-          width: { lg: '175px', xs: '80px'}, 
-          fontSize: { lg: '20px', xs: '14px'}
+          width: { lg: '175px', xs: '80px'},
+          fontSize: { lg: '20px', xs: '14px'},
+          height: '56px',
+          position: 'absolute'
         }}
+        height="76px"
+        value=""
+        onchange={(e) => {}}
+        placeholder="Search Exercises"
+        type="text"
         >
           Search
         </Button>
