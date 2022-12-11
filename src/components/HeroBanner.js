@@ -39,7 +39,7 @@ const HeroBanner = () => {
                 Excercise
             </Typography>
             <img src={HeroBannerImage} alt="banner" 
-            className="hero-banner-img" />gjtu
+            className="hero-banner-img" />gj
     </Box>
   )
 }
