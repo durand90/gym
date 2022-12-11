@@ -41,7 +41,7 @@ const HeroBanner = () => {
             <img src={HeroBannerImage} alt="banner" 
             className="hero-banner-img" />
     </Box>
-  )hgj
+  )h
 }
 
 export default HeroBanner
