@@ -9,7 +9,7 @@ const Home = () => {
     <Box>
         <HeroBanner />
         <SearchExercises />
-        <Exercises />jjgkkgjjfkf
+        <Exercises />jjgkkgjjf
     </Box>
   )
 }
