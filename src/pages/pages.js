@@ -2,7 +2,7 @@ import React from 'react'
 
 const pages = () => {
   return (
-    <div>pages</div>agbf
+    <div>pages</div>agb
   )
 }
 
