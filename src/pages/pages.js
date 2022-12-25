@@ -3,7 +3,7 @@ import React from 'react'
 const pages = () => {
   return (
     <div>pages</div>
-  )gdgfhhf
+  )gdgfh
 }
 
 export default pages
