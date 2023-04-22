@@ -4,5 +4,5 @@ const pages = () => {
   return (
     <div>pages</div>
   )
-}aas
+}aa
 export default pages
